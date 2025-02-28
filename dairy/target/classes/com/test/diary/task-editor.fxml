@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.test.diary.TaskEditorController" spacing="10">
+    <TextField fx:id="titleField" promptText="Название задачи"/>
+    <TextArea fx:id="descriptionField" promptText="Описание"/>
+    <DatePicker fx:id="dueDatePicker" promptText="Выберите дату"/>
+    <Button fx:id="saveButton" text="Сохранить"/>
+</VBox>
